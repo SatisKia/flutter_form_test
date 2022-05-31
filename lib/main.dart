@@ -77,7 +77,7 @@ class _MyHomePageState extends State with MyDirty {
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance!.addPostFrameCallback((_) {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
       setState(() {
         _controller1.text = 'あいうえお';
         _controller2.text = '';
